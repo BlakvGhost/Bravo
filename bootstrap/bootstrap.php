@@ -2,7 +2,7 @@
 
 session_start();
 
-define('DS', '/');
+define('DS', DIRECTORY_SEPARATOR);
 
 define('BASE_URL', $_SERVER['DOCUMENT_ROOT']);
 

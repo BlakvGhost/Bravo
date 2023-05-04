@@ -3,10 +3,8 @@
 use Symfony\Component\Dotenv\Dotenv;
 
 $dotenv = new Dotenv();
-$dotenv->load(__DIR__ . '/.env');
 
-// loads .env, .env.local, and .env.$APP_ENV.local or .env.$APP_ENV
-$dotenv->loadEnv(__DIR__ . '/.env');
+$dotenv->loadEnv(__DIR__ . '/../.env');
 /**
  * Prends un nom de session et renvois le message contenu dans la clée au niveau de la variable globale SESSION puis vide cette variable
  */
