@@ -1,0 +1,81 @@
+body,html {
+    margin: 0px;
+	padding: 0px;
+    overflow-x: hidden!important;
+}
+
+.bar { height: 40px; background-color: #000080; padding: 1% 2%; }
+.bar h3{ margin: 0px; color : white ;}
+.auto_formulaire{ width : 30%; padding : 10px; margin: 4% auto; text-align: center; border: 5px solid #000080;}
+.auto_formulaire input:not(input[type = 'checkbox']), .auto_formulaire select{ display: block; width: 100%; padding: 8px 2px;margin : 20px 0;}
+.validation {width:200px;height:30px; background-color:#000080; border-radius:20px;color: white; margin: 5% auto; font-size: 18px;}
+.connexion{width : 30%; padding : 10px; margin: 0 auto 5% auto; text-align: center; border: 5px solid #000080; }
+.connexion input, .connexion button{width: 90%;padding: 10px;}
+
+.my-5 {margin: 20px 0;}
+.my-6 button{margin: 8px 0; background-color: #000080;color: white; font-family: 'Times New Roman', Times, serif; font-size: 1.2em; border-radius: 15px;}
+h5{font-family: 'Times New Roman', Times, serif; font-size: 1em;color: black; background-color: #EBECE4; width:100%; height: 40px; margin: 0; padding-left: 2%;}
+h6{font-family: 'Times New Roman', Times, serif; color: black; font-size: 18px;}
+h6 a{text-decoration: none; color: blue;}
+
+.d-flex {display: flex; }
+.b-flex {display: block;}
+.d-flex * {align-self: center;}
+.justify-content-between {justify-content: space-between;}
+.color-white{color: white;}
+.btn {padding: 10px 30px; outline: none; box-shadow: 1px 2px 3px black; text-decoration: none; transition: all ease-in-out .2s;}
+.btn:hover {background-color: black!important;}
+.bg-danger {background-color: red;color: white;border-radius: 5px; font-size: 1em; font-weight: bold;}
+.bg-info {background-color: blue; color: white; border-radius: 5px;font-size: 1em; font-weight: bold;}
+a{text-decoration: none; color: white;}
+.my-end{bottom: 10%;}
+
+.bg-success {background-color: green; color: white; border-radius: 5px;font-size: 1em; font-weight: bold;}
+.mx-2 {margin: 5px;}
+.text-decoration-none {text-decoration: none;}
+.mx-3 { margin: 1% auto;padding-left: 2%; padding-right: 2%;}
+.mx-4 { margin: 2% auto;padding-left: 8%; padding-right: 8%;}
+.p-2 span{background-color: rgb(45, 202, 14); border: solid;}
+.btn-border {border: 5px outset; width: 20%; height: 22%;  margin: 3% 0; padding: 0 4%; text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 1em;}
+legend {font-family:'Times New Roman', Times, serif; font-weight: bold; font-size: 1.5em; color: black;}
+.custom-fichier {padding-bottom: 15%;}
+.cr-1{width: 20%; }
+.w-100 {width: 100%;}
+.img-1{text-align: center;}
+.h-2 {height: 25%;}
+.erreur-2 h4{background-color: rgb(228, 30, 30); color: red;}
+update-info{width : 30%;
+    margin: 6% auto;
+    text-align: center;
+    border: 5px solid #000080;}
+
+table { border-collapse: collapse; width: 100%;}
+      
+th, td { border: 1px solid #ddd; padding: 8px; text-align: center;}
+      
+th { background-color: #f2f2f2;}
+      
+tr:hover {background-color: #f5f5f5;} 
+      
+.ticket-ouvert {background-color: rgb(41, 41, 230); border: 2px solid; padding: 3% 5%; color : white; font-size: 1.5em; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.ticket-resolu {background-color: rgb(45, 202, 14); border: 2px solid; padding: 3% 5%; color : white; font-size: 1.5em; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.ticket-fermer {background-color: rgb(228, 30, 30); border: 2px solid; padding: 3% 5%; color : white; font-size: 1.5em; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.departement {background-color: rgb(37, 2, 2); border: 2px solid; padding: 3% 5%; color : white; font-size: 1.5em; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.view-probleme1 { width : 100%;  height: 50%; margin: 8% auto;  border: 3px outset #101014; }
+.p-1 {padding-left: 1%; padding-right: 1%;}
+.float {float: left;}
+.mdi-size {font-size: 2rem;}
+.floatright {float: right;}
+.center{text-align: center;}
+.view-user{ display: block; width: 100%; padding: 8px 2px; margin : 20px 0;border: 2px groove #02021a; border-radius: 5px; background-color: #f4f5ef;color: #020214; font-family:'Times New Roman', Times, serif; font-weight: bold; }
+.messageries {border: 1px solid black;padding:5px; margin: 5px auto; }
+.design {font-size: 1.2em; font-family: 'Times New Roman', Times, serif;}
+.contenu {margin:2% auto; text-align:center; width:100%;}
+.img-user {width: 3%; height: 2%;}
+.font-tchat {background-color: #e7e0e0; color: rgb(41, 4, 4);}
+.footer-update {margin-top:4%; position: fixed; width : 100%; bottom: 0;}
+.statut-fermer {background-color: rgb(228, 30, 30); border: 2px solid; padding: 5px 10px; color : white; font-size: 1em; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.statut-ouvert {background-color: rgb(5, 172, 47); border: 2px solid; padding: 5px 10px; color : white; font-size: 1em; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.statut-cours {background-color: rgba(9, 255, 62, 0.637); border: 2px solid; padding: 5px 10px; color : white; font-size: 1em; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.statut-attente {background-color: rgb(240, 225, 15); border: 2px solid; padding: 5px 10px; color : white; font-size: 1em; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.statut-resolu {background-color: rgb(1, 27, 3); border: 2px solid; padding: 5px 10px; color : white; font-size: 1em; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
