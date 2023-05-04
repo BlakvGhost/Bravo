@@ -22,9 +22,8 @@ class Model
 
     private function db()
     {
-        $dsn = "{$_ENV['DB_CONNECTION']}:{$_ENV['DB_HOST']};{$_ENV['DB_DATABASE']};charset=utf8,{$_ENV['DB_USERNAME']},{$_ENV['DB_PASSWORD']}";
         try {
-            $bdd = new \PDO($dsn);
+            $bdd = new \PDO("{$_ENV['DB_CONNECTION']}:host={$_ENV['DB_HOST']};dbname={$_ENV['DB_DATABASE']};charset=utf8", $_ENV['DB_USERNAME'], $_ENV['DB_PASSWORD']);
             return $bdd;
         } catch (\Throwable $th) {
             die('erreur veillez vous connectez .....');
