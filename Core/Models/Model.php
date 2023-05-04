@@ -22,8 +22,9 @@ class Model
 
     private function db()
     {
+        $dsn = "{$_ENV['DB_CONNECTION']}:{$_ENV['DB_HOST']};{$_ENV['DB_DATABASE']};charset=utf8,{$_ENV['DB_USERNAME']},{$_ENV['DB_PASSWORD']}";
         try {
-            $bdd = new \PDO('mysql:host=localhost;dbname=saturnin_mentor_project;charset=utf8', 'root', '');
+            $bdd = new \PDO($dsn);
             return $bdd;
         } catch (\Throwable $th) {
             die('erreur veillez vous connectez .....');
