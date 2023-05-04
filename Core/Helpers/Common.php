@@ -5,8 +5,7 @@ namespace Facades\Helpers;
 class Common
 {
     /**
-     * permet de recuperer tout le contenu de la variable globale $_POST echappés
-     * @return array le contenu de la variable globale $_POST echappés
+     * Returns an array with all the contents of the global $_POST variable escaped with htmlentities().
      */
     protected function posts(): array
     {
@@ -20,9 +19,7 @@ class Common
     }
 
     /**
-     * permet de recuperer la valeur d'une clée soit dans le $_SERVER
-     * @param string $key 
-     * @return string le contenu de la valeur de la clée ou de la valeur default
+     * Returns the value of the given key from the global $_SERVER array.
      */
     protected function server(string $key): string
     {
@@ -32,10 +29,7 @@ class Common
     }
 
     /**
-     * permet de recuperer la valeur d'une clée soit dans le $_POST ou $_GET
-     * @param string $key 
-     * @param string $default C'est la chaine de caractère a remplacer par default si la valeur d'une clée n'existe pas
-     * @return string le contenu de la valeur de la clée ou de la valeur default
+     *  Returns the value of the given key from either the global $_POST or $_GET variables, with the option to specify a default value if the key is not set.
      */
     protected function input(string $key, string $default = ''): string
     {
@@ -45,9 +39,7 @@ class Common
     }
 
     /**
-     * permet de recuperer la valeur d'une clée soit dans le $_FILES
-     * @param string $key 
-     * @return string le contenu de la valeur de la clée
+     *  Returns the file uploaded with the given key from the global $_FILES variable, or redirects back to the previous page with an error message if no file was uploaded.
      */
     protected function file(string $key)
     {
@@ -59,7 +51,7 @@ class Common
     }
 
     /**
-     * Prends un chemin et redirige l'utilisateur vers ce chemin en utilisant la function native header
+     * Redirects the user to the given path using the header() function
      */
     protected function redirecTo(string $path = '')
     {
@@ -68,10 +60,7 @@ class Common
     }
 
     /**
-     * function permettant de valider les entrees par POST
-     * @param string $path
-     * @param string $option
-     * @return string
+     * Returns the sanitized value of the given key from the global $_POST variable, with the option to validate that the key exists and is not empty.
      */
     protected function sanitize_post(string $key, bool $strict = true)
     {
@@ -91,7 +80,7 @@ class Common
     }
 
     /**
-     * redirect to previous page
+     * Redirects the user back to the previous page
      */
     protected function back()
     {
@@ -101,6 +90,9 @@ class Common
         return $this;
     }
 
+    /**
+     * Sets a message on the session with the given key (defaulting to 'error').
+     */
     protected function with(string $message, $key = 'error')
     {
         $this->setDataOnSession($key, $message);
@@ -108,11 +100,17 @@ class Common
         return $this;
     }
 
+    /**
+     * Returns a JSON-encoded string of the given array.
+     */
     protected function json(array $data)
     {
         return json_encode($data);
     }
 
+    /**
+     * Returns current authenticated user information or an empty array if not authenticated
+     */
     protected function user($attr = false)
     {
 
@@ -148,6 +146,9 @@ class Common
         return self::setDataOnSession('error', $message);
     }
 
+    /**
+     * make var_dump() and exit() in pre tag
+     */
     protected function dd($value)
     {
         echo "<pre>";
