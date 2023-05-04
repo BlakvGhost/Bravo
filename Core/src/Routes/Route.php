@@ -1,8 +1,8 @@
 <?php
 
-namespace Facades\Routes;
+namespace Juste\Facades\Routes;
 
-use Facades\Helpers\Common;
+use Juste\Facades\Helpers\Common;
 
 class Route extends Common
 {

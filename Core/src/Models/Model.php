@@ -1,6 +1,6 @@
 <?php
 
-namespace Facades\Models;
+namespace Juste\Facades\Models;
 
 
 class Model

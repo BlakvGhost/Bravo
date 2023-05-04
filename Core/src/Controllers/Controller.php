@@ -1,8 +1,8 @@
 <?php
 
-namespace Facades\Controllers;
+namespace Juste\Facades\Controllers;
 
-use Facades\Helpers\Common;
+use Juste\Facades\Helpers\Common;
 
 class Controller extends Common
 {

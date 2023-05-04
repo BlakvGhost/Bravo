@@ -1,6 +1,6 @@
 <?php
 
-namespace Facades\Helpers;
+namespace Juste\Facades\Helpers;
 
 class Common
 {
