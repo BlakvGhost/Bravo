@@ -1,2 +1,5 @@
 .env
-vendor/
+/vendor
+/.idea
+/.vscode
+/node_modules
