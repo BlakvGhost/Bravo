@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d1cef273b5b1cb631e6aed603128756",
+    "content-hash": "6cbd21f26293f3c77026ed311ebd410c",
     "packages": [
+        {
+            "name": "blakvghost/juste",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BlakvGhost/Juste.git",
+                "reference": "ee12de9a20a94b62476d9e5ae1b4c9dd038ce680"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BlakvGhost/Juste/zipball/ee12de9a20a94b62476d9e5ae1b4c9dd038ce680",
+                "reference": "ee12de9a20a94b62476d9e5ae1b4c9dd038ce680",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/dotenv": "^6.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Juste\\Facades\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kabirou ALASSANE",
+                    "email": "kabirou2001@gmail.com"
+                }
+            ],
+            "description": "Bravo PHP MVC Framework Core",
+            "support": {
+                "issues": "https://github.com/BlakvGhost/Juste/issues",
+                "source": "https://github.com/BlakvGhost/Juste/tree/master"
+            },
+            "time": "2023-05-05T16:46:55+00:00"
+        },
         {
             "name": "symfony/dotenv",
             "version": "v6.2.8",
@@ -83,8 +124,10 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "blakvghost/juste": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
