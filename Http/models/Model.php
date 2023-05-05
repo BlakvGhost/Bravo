@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Facades\Models\Model as Helpers;
+use Juste\Facades\Models\Model as Helpers;
 
 class Model extends Helpers
 {

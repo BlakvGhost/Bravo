@@ -1,19 +1,22 @@
 {
-    "name": "blakvghost/bravo",
-    "description": "Mini Framework MVC PHP",
-    "type": "project",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "App\\": "Http/",
-            "Routes\\": "routes/",
-            "Facades\\": "Core/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Kabirou ALASSANE",
-            "email": "kabirou2001@gmail.com"
-        }
-    ]
+  "name": "blakvghost/bravo",
+  "description": "Mini Framework MVC PHP",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "Http/",
+      "Routes\\": "routes/",
+      "Juste\\Facades\\": "Core/src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Kabirou ALASSANE",
+      "email": "kabirou2001@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/dotenv": "^6.2"
+  }
 }
