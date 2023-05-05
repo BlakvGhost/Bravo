@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\Controller;
+use App\Models\User;
 
 class WelcomeController extends Controller
 {
@@ -26,17 +27,22 @@ class WelcomeController extends Controller
         return $this->html("<h2>Welcome To Store</h2>");
     }
 
-    public function edit($id)
+    public function show(User $user)
     {
-        return $this->html("<h2>Welcome To Edit</h2>");
+        return $this->html("<h2>Welcome To Show" . $user->email ."</h2>");
+    }
+    
+    public function edit(User $user)
+    {
+        return $this->html("<h2>Welcome To Edit" . $user->email ."</h2>");
     }
 
-    public function update($id)
+    public function update(User $user)
     {
         return $this->html("<h2>Welcome To update</h2>");
     }
 
-    public function destroy($id)
+    public function destroy(User $user)
     {
         return $this->html("<h2>Welcome To Destroy</h2>");
     }
