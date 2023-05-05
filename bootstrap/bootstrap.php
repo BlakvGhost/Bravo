@@ -27,6 +27,11 @@ if (!$payloads) {
     return require ERRORS_VIEW_PATH . DS . '404.php';
 }
 
+if($payloads['type'] == 'html') {
+    echo $payloads['html'];
+    return;
+}
+
 $pageTitle = $payloads['title'];
 
 $view = $payloads['view_path'];
