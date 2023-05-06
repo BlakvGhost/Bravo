@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\Models\Model;
+use Illuminate\Database\Eloquent\Model;
 
 class User extends Model
 {

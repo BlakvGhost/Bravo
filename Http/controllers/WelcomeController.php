@@ -14,6 +14,8 @@ class WelcomeController extends Controller
 
     public function index()
     {
+        $user = User::find(1);
+        $this->dd($user->password);
         return $this->html("<h2>Welcome To Index</h2>");
     }
 

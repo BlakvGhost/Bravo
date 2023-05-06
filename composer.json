@@ -16,7 +16,7 @@
     }
   ],
   "require": {
-    "blakvghost/juste": "dev-master"
-  },
-  "minimum-stability": "dev"
+    "blakvghost/juste": "dev-master",
+    "illuminate/database": "^10.9"
+  }
 }
