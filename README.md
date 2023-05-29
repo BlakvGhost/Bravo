@@ -1,6 +1,6 @@
 # Bravo
 
- PHP small MVC Framework
+ Bravo is a personal project, a mini MVC framework in PHP that I developed while drawing the best points from Laravel, Symfony and the Node.js side. I like simplicity, so I decided to make a simple product. For the moment, I manage the Route, the middlewares, the CORS, the easy sending of mails, as well as a mini ORM.
 
 ## Authors
 
