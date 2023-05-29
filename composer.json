@@ -17,6 +17,6 @@
   ],
   "require": {
     "blakvghost/juste": "dev-master",
-    "illuminate/database": "^10.9"
+    "symfony/mailer": "^6.2"
   }
 }
