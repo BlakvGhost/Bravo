@@ -1,1 +1,1 @@
-<h1 style="text-align: center;">Welcome To <?= $context['appName'] ?></h1>
+<h1 style="text-align: center;">Welcome To {{ $appName }} <?= route('api') ?></h1>
