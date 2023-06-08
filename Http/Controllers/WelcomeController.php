@@ -15,7 +15,7 @@ class WelcomeController extends Controller
     public function index()
     {
         $user = User::find(1);
-        $this->dd($user->password);
+        $this->dd($user);
         return $this->html("<h2>Welcome To Index</h2>");
     }
 
@@ -51,6 +51,7 @@ class WelcomeController extends Controller
 
     public function welcome()
     {
+        //$this->dd($this::class);
         return $this->render('welcome', context: ['appName' => $_ENV['APP_NAME']], title: 'Welcome');
     }
 }

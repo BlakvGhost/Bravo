@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Kernel;
+namespace App;
 
-class Kernel {
+trait Kernel {
     protected $middlewareAliases = [
-        'auth' => \App\Http\Middleware\Authenticate::class,
+        'auth' => \App\Middleware\MustAuth::class,
+        'api' => \App\Middleware\MustAuth::class,
     ];
 }
