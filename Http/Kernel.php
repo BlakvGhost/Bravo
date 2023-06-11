@@ -4,7 +4,7 @@ namespace App;
 
 trait Kernel {
     protected $middlewareAliases = [
-        'auth' => \App\Middleware\MustAuth::class,
-        'api' => \App\Middleware\MustAuth::class,
+        'auth' => \App\Middleware\Authenticate::class,
+        'api' => \App\Middleware\Cors::class,
     ];
 }

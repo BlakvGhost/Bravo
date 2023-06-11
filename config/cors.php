@@ -4,7 +4,7 @@ $allowedOrigins = [
     'https://kabirou-alassane.com',
 ];
 
-$origin = $_SERVER['HTTP_ORIGIN'];
+$origin = $_SERVER['HTTP_ORIGIN'] ?? '';
 
 if (!$origin) {
     $headers = getallheaders();

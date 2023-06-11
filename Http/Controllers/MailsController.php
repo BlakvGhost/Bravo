@@ -35,5 +35,4 @@ class MailsController extends Controller
         return $this->back();
         // return $this->render('mailsend', $data);
     }
-
 }
