@@ -8,8 +8,9 @@ use Juste\Facades\Routes\Route;
 Route::get("/", [WelcomeController::class, 'welcome'])->name('welcome');
 Route::resource('password', WelcomeController::class);
 
+
 Route::group(function () {
-    Route::get();
+    
 })->middlewares(['auth']);
 
 require_once 'api.php';
