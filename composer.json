@@ -17,6 +17,7 @@
     }
   ],
   "require": {
-    "blakvghost/juste": "^2.0"
+    "blakvghost/juste": "^2.0",
+    "php": "^8.0"
   }
 }
