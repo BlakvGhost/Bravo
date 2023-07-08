@@ -14,22 +14,40 @@ Documentation for Bravo is currently being prepared and will be available soon. 
 
 To see an example of using Bravo, you can refer to the [Bravo-mailer](https://github.com/BlakvGhost/bravo-mailer) project. It serves as a demonstration project and will have official documentation soon.
 
-## Installation
-
-To install Bravo, you can follow these steps:
-
-1. Require the package using Composer by running the following command:
-
-```sh
-composer require blakvghost/bravo
-```
-
-2. Once the package is installed, you can start using Bravo in your PHP project.
-
 ## Requirements
 
 - PHP 8.0 or higher
 - [blakvghost/juste](https://packagist.org/packages/blakvghost/juste) package (version 2.0 or higher)
+
+## Installation
+
+To install Bravo, you can follow these steps:
+
+1. Clone the project repository from GitHub by running the following command:
+
+```sh
+git clone https://github.com/BlakvGhost/Bravo.git
+```
+
+2. After cloning the repository, navigate to the project directory:
+
+```sh
+cd Bravo
+```
+
+3. Install the project dependencies by running the following command:
+
+```sh
+composer install
+```
+
+4. Once the dependencies are installed, you can start using Bravo in your PHP project.
+
+By cloning the project repository, you will have the complete Bravo framework and all its dependencies available in your project directory. This allows you to customize and extend Bravo according to your needs.
+
+Please note that you will need to have Git and Composer installed on your system for this installation method to work.
+
+If you encounter any issues during the installation process, please make sure to check the project's documentation or reach out to the project's author for support
 
 ## Usage Examples
 
