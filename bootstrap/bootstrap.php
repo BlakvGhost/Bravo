@@ -1,2 +1,2 @@
 <?php
-require_once 'vendor/blakvghost/juste/src/autoload.php';
+require_once ROOT . 'vendor/blakvghost/juste/src/autoload.php';
