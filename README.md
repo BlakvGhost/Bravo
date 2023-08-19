@@ -21,7 +21,7 @@ To see an example of using Bravo, you can refer to the [Bravo-mailer](https://gi
 
 ## Installation
 
-To install Bravo, you can follow these steps:
+To install Bravo, you can either go through composer or through github
 
 ### composer
 
