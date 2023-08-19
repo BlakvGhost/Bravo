@@ -6,11 +6,11 @@
 ![Packagist Version (custom server)](https://img.shields.io/packagist/l/Blakvghost/Bravo?label=Licence)
 ![Packagist Version (custom server)](https://img.shields.io/packagist/dt/Blakvghost/Bravo?label=download)
 
-## Documentation:
+## Documentation
 
 Documentation for Bravo is currently being prepared and will be available soon. Stay tuned for updates!
 
-## How to use:
+## How to use
 
 To see an example of using Bravo, you can refer to the [Bravo-mailer](https://github.com/BlakvGhost/bravo-mailer) project. It serves as a demonstration project and will have official documentation soon.
 
@@ -22,6 +22,16 @@ To see an example of using Bravo, you can refer to the [Bravo-mailer](https://gi
 ## Installation
 
 To install Bravo, you can follow these steps:
+
+### composer
+
+1. Create the project with composer
+
+```sh
+composer create-project blakvghost/bravo <project-name>
+```
+
+### github
 
 1. Clone the project repository from GitHub by running the following command:
 
@@ -48,6 +58,26 @@ By cloning the project repository, you will have the complete Bravo framework an
 Please note that you will need to have Git and Composer installed on your system for this installation method to work.
 
 If you encounter any issues during the installation process, please make sure to check the project's documentation or reach out to the project's author for support
+
+## Start Server
+
+For the moment use the php server by following these steps:
+
+1. Make sure you have php >= 8.0 and have php in your session environment variables for Windows users
+
+2. Open your terminal or command prompt in the project directory:
+
+```sh
+cd <project-name>
+```
+
+3. start php server on public folder:
+
+```sh
+php -s -S localhost:8000 -t ./public
+```
+
+3. Open your browser and head to `localhost:8000` or change the port
 
 ## Usage Examples
 
