@@ -8,7 +8,8 @@
 
 ## Documentation
 
-Documentation for Bravo is currently being prepared and will be available soon. Stay tuned for updates!
+Documentation for Bravo is being prepared and will be available soon. Stay tuned for updates!
+For the moment refer to the documentation or the source code of the [Framework Core (Juste)](https://github.com/BlakvGhost/Juste).
 
 ## How to use
 
